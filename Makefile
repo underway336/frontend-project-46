@@ -4,6 +4,9 @@ install: install-deps
 install-deps:
 	npm ci --legacy-peer-deps
 
+gendiff:
+	node bin/gendiff.js
+	
 lint:
 	npx eslint .
 
