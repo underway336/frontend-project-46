@@ -1,0 +1,26 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "educational project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Sergienko",
+  "license": "ISC",
+  "simple-git-hooks": {
+    "pre-push": "make lint"
+  },
+  "type": "module",
+  "devDependencies": {
+    "debug": "^4.3.4",
+    "@eslint/eslintrc": "^3.0.2",
+    "@eslint/js": "^9.1.1",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "globals": "^15.0.0",
+    "nodemon": "^3.1.7",
+    "simple-git-hooks": "^2.11.1"
+  }
+}
