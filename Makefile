@@ -5,7 +5,7 @@ install-deps:
 	npm ci --legacy-peer-deps
 
 gendiff:
-	node bin/gendiff.js
+	node bin/gendiff.js $(ARGS)
 	
 lint:
 	npx eslint .

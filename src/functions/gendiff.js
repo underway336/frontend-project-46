@@ -1,4 +1,2 @@
-const gendiff = () => {
-  console.log('Gendiff launched');
-};
-export default gendiff;
+const runGendiff = (file1, file2) => console.log(`${file1} === ${file2}`);
+export default runGendiff;
