@@ -9,6 +9,14 @@
   "bin": {
     "gendiff": "bin/gendiff.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/underway336/frontend-project-46.git"
+  },
+  "bugs": {
+    "url": "https://github.com/underway336/frontend-project-46/issues"
+  },
+  "homepage": "https://github.com/underway336/frontend-project-46#readme",
   "author": "Andrew Sergienko",
   "license": "ISC",
   "simple-git-hooks": {
