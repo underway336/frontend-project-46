@@ -1,13 +1,15 @@
-install: install-deps
+install: deps-install
 	npx simple-git-hooks
 
-install-deps:
+deps-install:
 	npm ci --legacy-peer-deps
 
 gendiff:
 	node bin/gendiff.js $(ARGS)
-	
+
 lint:
 	npx eslint .
+
+
 
 
